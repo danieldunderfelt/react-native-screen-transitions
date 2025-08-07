@@ -44,9 +44,9 @@ export default {
 export { useScreenAnimation };
 
 // Navigator type
-export type { TransitionStackNavigatorTypeBag } from "./navigator/create-transitionable-stack-navigator";
+export type { TransitionStackNavigatorTypeBag, TransitionStackNavigationOptions } from "./navigator/create-transitionable-stack-navigator";
 
 /**
  * Configuration type for screen transitions. Use this to build custom presets.
  */
-export type { TransitionConfig } from "./types";
+export type { TransitionConfig, ScreenInterpolationProps } from "./types";
